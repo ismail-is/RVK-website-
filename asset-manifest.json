@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RVK-website-/static/css/main.b6fbc2b7.css",
-    "main.js": "/RVK-website-/static/js/main.04a2f6aa.js",
+    "main.js": "/RVK-website-/static/js/main.87e24ba9.js",
     "static/js/787.823c83fe.chunk.js": "/RVK-website-/static/js/787.823c83fe.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/RVK-website-/static/media/fontawesome-webfont.ed6298903ae1554c7f3e.svg",
     "static/media/themify.svg?-fvbane": "/RVK-website-/static/media/themify.f0fc8c798eac5636249c.svg",
@@ -43,11 +43,11 @@
     "static/media/sappot-shape.svg": "/RVK-website-/static/media/sappot-shape.de16c868c146a966fb9805f6739fe822.svg",
     "static/media/title-shape.svg": "/RVK-website-/static/media/title-shape.bfe66cc5a470d4747b0c0d08df351335.svg",
     "main.b6fbc2b7.css.map": "/RVK-website-/static/css/main.b6fbc2b7.css.map",
-    "main.04a2f6aa.js.map": "/RVK-website-/static/js/main.04a2f6aa.js.map",
+    "main.87e24ba9.js.map": "/RVK-website-/static/js/main.87e24ba9.js.map",
     "787.823c83fe.chunk.js.map": "/RVK-website-/static/js/787.823c83fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6fbc2b7.css",
-    "static/js/main.04a2f6aa.js"
+    "static/js/main.87e24ba9.js"
   ]
 }
