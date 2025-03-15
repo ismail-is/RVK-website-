@@ -1,7 +1,7 @@
 {
   "name": "bonso",
   "version": "0.1.0",
-  "homepage": "http://Istiqbal-react.wpolive.com",
+ "homepage": "https://ismail-is.github.io/RVK-website-",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -43,6 +43,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -62,5 +64,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
