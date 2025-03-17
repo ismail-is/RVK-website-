@@ -31,14 +31,13 @@ const About = (props) => {
                             <div className="wpo-about-img-3">
                                 <img src={abImg3} alt="" />
                             </div>
-                            <div className="wpo-about-left-text">
-                                <span>“Lorem Ipsum has been the industry's and standard dummy text ever since the 1500s,
-                                    when an unknown printer took a galley of type and scrambled.”</span>
-                                <div className="text-item">
+                            {/* <div className="wpo-about-left-text">
+                                <span>“RVK Steels & Alloy”</span>
+                                <div className="text-item" >
                                     <img src={Signeture} alt="" />
-                                    <i className="fi flaticon-quotation"></i>
+                                    <i className="fi flaticon-quotation" ></i>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="shape-1">
                                 <img src={Shape1} alt="" />
                             </div>
@@ -46,14 +45,10 @@ const About = (props) => {
                     </div>
                     <div className="col-lg-6 col-md-12 order-lg-2 order-1">
                         <div className="wpo-about-right">
-                            <SectionTitle subtitle='ABOUT BUNSO' title='We are industrial solution providing company.' paragarap='It has survived not only five centuries, but also the leap into electronic
-                                    typesetting,
-                                    remaining essentially unchanged. It was popularised the release containing.'/>
+                            <SectionTitle subtitle='About RVK Steels & Alloy' title='Forging Excellence in Metal Fabrication.' paragarap='RVK Steel & Alloys is a leading manufacturer of fabricated metal products, specializing in HVAC ducts, POP partitions, cable trays, AC stands, powder coating, and kitchen equipment. Based in Bondel, Mangaluru, we are the exclusive manufacturers of Elemetz AC Stand and a trusted name in HVAC duct production.'/>
                             <div className="text">
-                                <span className="text-1">It has survived only five centuries but also leap into
-                                    electronic.</span>
-                                <span className="text-1">It has survived only five centuries but also leap into
-                                    electronic.</span>
+                                <span className="text-1">Quality Craftsmanship, Lasting Durability</span>
+                                <span className="text-1">Innovative Manufacturing, Trusted Excellence</span>
                             </div>
                             <Link onClick={ClickHandler} to="/about" className="theme-btn">About Us<i className="ti-arrow-right"></i></Link>
                         </div>

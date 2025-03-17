@@ -5,11 +5,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import patn1 from '../../images/partners/1.png'
-import patn2 from '../../images/partners/2.png'
-import patn3 from '../../images/partners/3.png'
-import patn4 from '../../images/partners/4.png'
-import patn5 from '../../images/partners/5.png'
+import patn1 from '../../images/allimg/clients/1.png'
+import patn2 from '../../images/allimg/clients/2.png'
+import patn3 from '../../images/allimg/clients/3.png'
+import patn4 from '../../images/allimg/clients/4.png'
+import patn5 from '../../images/allimg/clients/5.png'
 
 const PartnersSecion = () => {
 
@@ -91,7 +91,7 @@ const PartnersSecion = () => {
                             <Slider {...settings}>
                                 {partnerData.map((partner, partnekye) => (
                                     <div className="grid" key={partnekye}>
-                                        <img src={partner.img} alt='' />
+                                        <img src={partner.img} alt='' style={{height:'200px'}}/>
                                     </div>
                                 ))}
                             </Slider>

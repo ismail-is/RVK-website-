@@ -10,26 +10,26 @@ const FunFact = (props) => {
                         <div className="wpo-fun-fact-grids clearfix">
                             <div className="grid">
                                 <div className="info">
-                                    <h3><span><CountUp end={200} enableScrollSpy /></span>+</h3>
-                                    <p>Happy Clients</p>
+                                    <h3><span><CountUp end={2} enableScrollSpy /></span>+ </h3>
+                                    <p>Years of Experience </p>
                                 </div>
                             </div>
                             <div className="grid">
                                 <div className="info">
-                                    <h3><span><CountUp end={35} enableScrollSpy /></span></h3>
-                                    <p>Team Member</p>
+                                    <h3><span><CountUp end={10} enableScrollSpy /></span>+</h3>
+                                    <p>No.of Employees</p>
                                 </div>
                             </div>
                             <div className="grid">
                                 <div className="info">
-                                    <h3><span><CountUp end={321} enableScrollSpy /></span>+</h3>
-                                    <p>Successful Project</p>
+                                    <h3><span><CountUp end={50} enableScrollSpy /></span>+</h3>
+                                    <p>Clients Served </p>
                                 </div>
                             </div>
                             <div className="grid">
                                 <div className="info">
-                                    <h3><span><CountUp end={210} enableScrollSpy /></span>+</h3>
-                                    <p>5 Star Rating</p>
+                                    <h3><span><CountUp end={100} enableScrollSpy /></span>%</h3>
+                                    <p>Satisfaction </p>
                                 </div>
                             </div>
                         </div>

@@ -16,7 +16,7 @@ const ServiceCard = ({ img, title, sdescription, slug }) => {
                         <h2>{title}</h2>
                         <span>{sdescription}</span>
                     </div>
-                    <Link onClick={ClickHandler} to={`/service-single/${slug}`} className="theme-btn-s2">Details <i
+                    <Link to={`${slug}`} className="theme-btn-s2">Details <i
                         className="ti-arrow-right"></i></Link>
                 </div>
             </div>

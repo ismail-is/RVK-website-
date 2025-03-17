@@ -10,11 +10,12 @@ import PricingSection from '../../components/PricingSection/PricingSection';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
 import Logo from '../../images/logo-2.svg'
+import Hero from '../../components/hero/hero';
 const HomePage3 = () => {
     return (
         <Fragment>
             <Navbar Logo={Logo} />
-            <Hero3 />
+            <Hero />
             <About />
             <TeamSection />
             <ProjectSection2 />

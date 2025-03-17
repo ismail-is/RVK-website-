@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Shape1 from '../../images/cta-shape.svg'
 
-const CtaSection = () => {
+const Cta = () => {
     const ClickHandler = () => {
         window.scrollTo(10, 0);
     }
@@ -12,11 +12,11 @@ const CtaSection = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-9 col-md-12 col-12">
                         <div className="wpo-cta-text">
-                            <h2 style={{fontSize:'30px'}}> We strive to deliver the finest
-                                <span className="cta-text-bg"> quality  with precision engineering</span>
-                               
+                            <h2 style={{fontSize:'30px'}}> Committed to innovation
+                                <span className="cta-text-bg"> quality,  and excellence      in every product </span>
+                           
                                 <span className="cta-text-bg">
-                                    </span> and excellence.</h2>
+                                    </span>  we Manufacture.</h2>
                         </div> 
                     </div>
                     <div className="col-lg-2 col-md-12 col-12">
@@ -33,4 +33,4 @@ const CtaSection = () => {
     )
 }
 
-export default CtaSection;
+export default Cta;

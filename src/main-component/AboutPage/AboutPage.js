@@ -8,14 +8,17 @@ import CtaSection from '../../components/CtaSection/CtaSection';
 import TeamSection from '../../components/TeamSection/TeamSection';
 import PartnersSecion from '../../components/PartnersSecion/PartnersSecion';
 import Logo from '../../images/logo.svg'
+import Cta from '../../components/Cta/Cta';
+import PricingSection from '../../components/PricingSection/PricingSection';
 const AboutPage = () => {
     return (
         <Fragment>
             <Navbar Logo={Logo} />
             <PageTitle pageTitle={'About Us'} pagesub={'About'} />
             <About />
-            <CtaSection />
-            <TeamSection />
+            <PricingSection/>
+            <Cta />
+            {/* <TeamSection /> */}
             <PartnersSecion />
             <Footer />
             <Scrollbar />

@@ -25,6 +25,12 @@ import BlogDetailsFull from '../BlogDetailsFull/BlogDetailsFull'
 import BlogDetailsLeftSiide from '../BlogDetailsLeftSiide/BlogDetailsLeftSiide'
 import ContactPage from '../ContactPage/ContactPage';
 import ErrorPage from '../ErrorPage/ErrorPage';
+import Ducts from '../Ducts/Ducts';
+import CableTray from '../CableTray/CableTray';
+import ElementzAcStand from '../ElementzAcStand/ElementzAcStand';
+import Hybrid from '../Hybrid/Hybrid';
+import Pop from '../POP/Pop';
+import Products from '../Products/Products';
 
 const AllRoute = () => {
 
@@ -58,6 +64,12 @@ const AllRoute = () => {
           <Route path='contact' element={<ContactPage />} />
           <Route path='order_received' element={<OrderRecived />} />
           <Route path='404' element={<ErrorPage />} />
+          <Route path='Ducts' element={<Ducts />} />
+          <Route path='Elementz' element={<ElementzAcStand />} />
+          <Route path='CableTray' element={<CableTray />} />
+          <Route path='GripFrames' element={<Pop/>} />
+          <Route path='HybridPowderCoating' element={<Hybrid/>} />
+          <Route path='Products' element={<Products/>} />
         </Routes>
       </BrowserRouter>
 

@@ -17,12 +17,12 @@ const Hero3 = () => {
                             <div className="col-xl-6 col-lg-6 col-md-6 col-12">
                                 <div className="wpo-static-hero-inner">
                                     <div className="slide-title">
-                                        <h2>Get Industrial<br />
-                                            Solution.</h2>
+                                        <h2>RVK STEELS & ALLOYS </h2>
+                                        <h4 style={{color:'white'}}> Engineered for Performance, Built to Last</h4>
                                     </div>
                                     <div className="clearfix"></div>
                                     <div className="slide-btns">
-                                        <Link onClick={ClickHandler} className="theme-btn" to="/about">Learn More</Link>
+                                        <Link onClick={ClickHandler} className="theme-btn" to="/about">Read More</Link>
                                     </div>
                                 </div>
                             </div>

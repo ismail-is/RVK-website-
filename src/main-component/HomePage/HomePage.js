@@ -11,20 +11,26 @@ import TestimonialSection from '../../components/TestimonialSection/TestimonialS
 import BlogSection from '../../components/BlogSection/BlogSection';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import Logo from '../../images/logo-2.svg'
+import Logo from '../../images/allimg/logo/RVKlogo.png'
+import Hero3 from '../../components/hero3/hero3';
+import FunFact from '../../components/FunFact/FunFact';
 const HomePage = () => {
     return (
         <Fragment>
-            <Navbar Logo={Logo}/>
-            <Hero />
-            <PartnersSecion />
+            <Navbar hclass={'wpo-header-style-3'} Logo={Logo}/>
+           <Hero3 />
+           <About />
+            
+            <FunFact/>
             <ServiceSection />
-            <CtaSection />
-            <About />
-            <TeamSection />
-            < ProjectSection />
-            <TestimonialSection />
-            <BlogSection />
+            {/* <CtaSection /> */}
+            {/* <About /> */}
+            {/* <TeamSection /> */}
+            {/* < ProjectSection /> */}
+            {/* <TestimonialSection /> */}
+            {/* <BlogSection /> */}
+            <PartnersSecion />
+             <CtaSection />
             <Footer />
             <Scrollbar />
         </Fragment>

@@ -58,7 +58,7 @@ const ServiceSection = (props) => {
                     <div className="wpo-service-slider">
                         <Slider {...settings}>
                             {Services.map((item, sindx) => (
-                                <ServiceCard key={sindx} title={item.title} img={item.sImg} slug={item.slug} sdescription={item.description}/>
+                                <ServiceCard key={sindx} title={item.title} img={item.sImg} slug={item.slug} />
                             ))}
                         </Slider>
                     </div>

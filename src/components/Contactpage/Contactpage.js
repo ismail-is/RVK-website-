@@ -20,7 +20,7 @@ const Contactpage = () => {
                                         </div>
                                         <div className="office-info-text">
                                             <h2>Address</h2>
-                                            <p>7 Green Lake Street Crawfordsville, IN 47933</p>
+                                            <p>behind Hanuman Auto Care, Bondel, Padushedde, Mangaluru, Karnataka 575015</p>
                                         </div>
                                     </div>
                                 </div> 
@@ -33,8 +33,9 @@ const Contactpage = () => {
                                         </div>
                                         <div className="office-info-text">
                                             <h2>Email Us</h2>
-                                            <p>bonos@gmail.com</p>
-                                            <p>helloyou@gmail.com</p>
+                                            <p><a href="mailto:rvksteelalloys@gmail.com" style={{color:'#687693'}}>rvksteelalloys@gmail.com</a></p>
+
+                                            {/* <p>helloyou@gmail.com</p> */}
                                         </div>
                                     </div>
                                 </div> 
@@ -47,8 +48,9 @@ const Contactpage = () => {
                                         </div>
                                         <div className="office-info-text">
                                             <h2>Call Now</h2>
-                                            <p>+1 800 123 456 789</p>
-                                            <p>+1 800 123 654 987</p>
+                                            <p><a href="tel:+918197256135" style={{color:'#687693'}}>+91 8197 2561 35</a></p>
+                                            <p><a href="tel:+918722065111 " style={{color:'#687693'}}>+91 8722 0651 11</a></p>
+
                                         </div>
                                     </div>
                                 </div> 
@@ -67,7 +69,7 @@ const Contactpage = () => {
             </div> 
             <section className="wpo-contact-map-section">
                 <div className="wpo-contact-map">
-                    <iframe title='comtact-map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.9147703055!2d-74.11976314309273!3d40.69740344223377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbd!4v1547528325671"></iframe>
+                    <iframe title='comtact-map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.717224564245!2d74.86722587358814!3d12.925887415881897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35100596d2b7f%3A0x118081a02bd3e2de!2sRVK%20Steel%20and%20Alloys!5e0!3m2!1sen!2sin!4v1742020133774!5m2!1sen!2sin"></iframe>
                 </div>
             </section>
         </section>
