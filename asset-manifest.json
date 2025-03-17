@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RVK-website-/static/css/main.b6fbc2b7.css",
-    "main.js": "/RVK-website-/static/js/main.87e24ba9.js",
+    "main.css": "/RVK-website-/static/css/main.bc9a964f.css",
+    "main.js": "/RVK-website-/static/js/main.4664b2d5.js",
     "static/js/787.823c83fe.chunk.js": "/RVK-website-/static/js/787.823c83fe.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/RVK-website-/static/media/fontawesome-webfont.ed6298903ae1554c7f3e.svg",
     "static/media/themify.svg?-fvbane": "/RVK-website-/static/media/themify.f0fc8c798eac5636249c.svg",
@@ -9,12 +9,18 @@
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/RVK-website-/static/media/fontawesome-webfont.f0af1680f082547a7aae.ttf",
     "static/media/error-404.svg": "/RVK-website-/static/media/error-404.d93bbe6cafad517c41302724fa815cf6.svg",
     "static/media/4.jpg": "/RVK-website-/static/media/4.bd16758de80974652c21.jpg",
+    "static/media/1.jpg": "/RVK-website-/static/media/1.cf2bcb05a8e93a4616e5.jpg",
+    "static/media/3.jpg": "/RVK-website-/static/media/3.c3df0b015f44335e6d0d.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/RVK-website-/static/media/fontawesome-webfont.f7f1738ca345185e0185.woff",
     "static/media/themify.eot": "/RVK-website-/static/media/themify.9bad94440d49256265a5.eot",
     "static/media/themify.ttf?-fvbane": "/RVK-website-/static/media/themify.eda8b94308c6f538f04a.ttf",
     "static/media/fontawesome-webfont.eot": "/RVK-website-/static/media/fontawesome-webfont.09b9015b1ecaf95655b1.eot",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/RVK-website-/static/media/fontawesome-webfont.0317d582b93c20f68e05.woff2",
     "static/media/themify.woff?-fvbane": "/RVK-website-/static/media/themify.29b39089170885ae2967.woff",
+    "static/media/RVKlogo.png": "/RVK-website-/static/media/RVKlogo.c1677f372848c99d95e9.png",
+    "static/media/CABLE2.jpg": "/RVK-website-/static/media/CABLE2.4bc60d2f693c0518e182.jpg",
+    "static/media/2.jpg": "/RVK-website-/static/media/2.772ba07365137b0f27f8.jpg",
+    "static/media/CABLE1.jpg": "/RVK-website-/static/media/CABLE1.51695f75ba4e5313d52b.jpg",
     "static/media/logo-2.svg": "/RVK-website-/static/media/logo-2.7c99cb74d101ac7b107abe7339e357b6.svg",
     "static/media/logo.svg": "/RVK-website-/static/media/logo.7c99cb74d101ac7b107abe7339e357b6.svg",
     "static/media/flaticon.eot?": "/RVK-website-/static/media/flaticon.a28692c835684bdcf6cb.eot",
@@ -42,12 +48,12 @@
     "index.html": "/RVK-website-/index.html",
     "static/media/sappot-shape.svg": "/RVK-website-/static/media/sappot-shape.de16c868c146a966fb9805f6739fe822.svg",
     "static/media/title-shape.svg": "/RVK-website-/static/media/title-shape.bfe66cc5a470d4747b0c0d08df351335.svg",
-    "main.b6fbc2b7.css.map": "/RVK-website-/static/css/main.b6fbc2b7.css.map",
-    "main.87e24ba9.js.map": "/RVK-website-/static/js/main.87e24ba9.js.map",
+    "main.bc9a964f.css.map": "/RVK-website-/static/css/main.bc9a964f.css.map",
+    "main.4664b2d5.js.map": "/RVK-website-/static/js/main.4664b2d5.js.map",
     "787.823c83fe.chunk.js.map": "/RVK-website-/static/js/787.823c83fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6fbc2b7.css",
-    "static/js/main.87e24ba9.js"
+    "static/css/main.bc9a964f.css",
+    "static/js/main.4664b2d5.js"
   ]
 }
