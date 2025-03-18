@@ -1,48 +1,10 @@
 import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Services from "../../api/Services";
 import SectionTitle from "../SectionTitle/SectionTitle";
-import ServiceCard from "./ServiceCard"
-import ShapeOn from '../../images/service/service-shape.svg'
-
+import ServiceCard from "./ServiceCard";
+import ShapeOn from "../../images/service/service-shape.svg";
 
 const ServiceSection = (props) => {
-    const settings = {
-        dots: false,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
-                },
-            },
-            {
-                breakpoint: 991,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    arrows: false,
-                    dots:true,
-                },
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    arrows: false,
-                },
-            },
-           
-        ],
-    };
-
     return (
         <section className="wpo-service-section section-padding">
             <div className="shape-1">
@@ -56,11 +18,13 @@ const ServiceSection = (props) => {
                 </div>
                 <div className="wpo-service-wrap">
                     <div className="wpo-service-slider">
-                        <Slider {...settings}>
-                            {Services.map((item, sindx) => (
-                                <ServiceCard key={sindx} title={item.title} img={item.sImg} slug={item.slug} />
+                        <div className="row">
+                            {Services.slice(0, 6).map((item, index) => (
+                                <div className="col-lg-4 col-md-6 col-12" key={index}>
+                                    <ServiceCard title={item.title} img={item.sImg} slug={item.slug} />
+                                </div>
                             ))}
-                        </Slider>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -69,12 +33,3 @@ const ServiceSection = (props) => {
 }
 
 export default ServiceSection;
-
-
-
-
-
-
-
-
-

@@ -5,11 +5,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import patn1 from '../../images/allimg/clients/1.png'
-import patn2 from '../../images/allimg/clients/2.png'
-import patn3 from '../../images/allimg/clients/3.png'
-import patn4 from '../../images/allimg/clients/4.png'
-import patn5 from '../../images/allimg/clients/5.png'
+import patn1 from '../../images/logos/1.webp'
+import patn2 from '../../images/logos/2.webp'
+import patn3 from '../../images/logos/3.webp'
+import patn4 from '../../images/logos/4.webp'
+import patn5 from '../../images/logos/5.webp'
 
 const PartnersSecion = () => {
 
@@ -81,17 +81,18 @@ const PartnersSecion = () => {
 
 
     return (
-        <section className="wpo-partners-section">
-            <h2>partners</h2>
+        <section className="wpo-partners-section" style={{margin:'40px'}}>
+           
             <div className="container">
                 <div className="row">
                     <div className="col col-xs-12">
-
-                        <div className="partner-grids partners-slider">
+                    <h1 style={{textAlign:'center'}}>Our Clients</h1>
+                        <div className="partner-grids partners-slider" style={{backgroundColor:'#FF5E14',border:'2px red'}}>
+                        
                             <Slider {...settings}>
                                 {partnerData.map((partner, partnekye) => (
                                     <div className="grid" key={partnekye}>
-                                        <img src={partner.img} alt='' style={{height:'200px'}}/>
+                                        <img src={partner.img} alt='' />
                                     </div>
                                 ))}
                             </Slider>

@@ -4,11 +4,11 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 import ServiceSection from '../../components/ServiceSection/ServiceSection';
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
-import Logo from '../../images/logo.svg'
+import Logo from '../../images/allimg/logo/RVKlogo.png'
 const Products = () => {
     return (
         <Fragment>
-            <Navbar Logo={Logo} />
+            <Navbar  hclass={'wpo-header-style-3'} Logo={Logo}/>
             <PageTitle pageTitle={'Products'} pagesub={'Products'} />
             <ServiceSection />
             <Footer />

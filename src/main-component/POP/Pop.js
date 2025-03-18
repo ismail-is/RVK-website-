@@ -7,16 +7,16 @@ import Footer from '../../components/footer/Footer';
 import CtaSection from '../../components/CtaSection/CtaSection';
 import TeamSection from '../../components/TeamSection/TeamSection';
 import PartnersSecion from '../../components/PartnersSecion/PartnersSecion';
-import Logo from '../../images/logo.svg'
+import Logo from '../../images/allimg/logo/RVKlogo.png'
 import Cta from '../../components/Cta/Cta';
-import simg1 from '../../images/service-single/2.jpg'
+import simg1 from '../../images/cable/cable.jpg'
 import simg2 from '../../images/service-single/3.jpg'
 import ServiceSidebar from '../ServiceSinglePage/sidebar';
 import { Link } from 'react-router-dom';
 const Pop = () => {
     return (
         <Fragment>
-            <Navbar Logo={Logo} />
+            <Navbar hclass={'wpo-header-style-3'} Logo={Logo} />
             <PageTitle pageTitle={'POP GRIPFRAMES  '}  />
             <div className="wpo-service-single-area section-padding">
                 <div className="container">

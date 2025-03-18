@@ -7,17 +7,18 @@ import Footer from '../../components/footer/Footer';
 import CtaSection from '../../components/CtaSection/CtaSection';
 import TeamSection from '../../components/TeamSection/TeamSection';
 import PartnersSecion from '../../components/PartnersSecion/PartnersSecion';
-import Logo from '../../images/logo.svg'
+import Logo from '../../images/allimg/logo/RVKlogo.png'
 import Cta from '../../components/Cta/Cta';
 import simg1 from '../../images/allimg/Ducts/CABLE1.jpg'
 import simg2 from '../../images/allimg/Ducts/CABLE2.jpg'
 import Img1 from '../../images/allimg/service/3.jpg'
 import ServiceSidebar from '../ServiceSinglePage/sidebar';
 import { Link } from 'react-router-dom';
+import Contact from '../ServiceSinglePage/contact';
 const CableTray = () => {
     return (
         <Fragment>
-            <Navbar Logo={Logo} />
+            <Navbar hclass={'wpo-header-style-3'} Logo={Logo} />
             <PageTitle pageTitle={'CABLE TRAY  '}  />
             <div className="wpo-service-single-area section-padding">
                 <div className="container">
@@ -177,6 +178,33 @@ const CableTray = () => {
                 </div>
             </div>
         </div>
+        {/* <div className="wpo-project-single-item">
+  <div className="wpo-project-single-title">
+    <h3>Related Projects</h3>
+  </div>
+  <div className="wpo-project-area-s2 single">
+    <div className="wpo-project-wrap">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid">
+          <div className="images">
+            <img
+              src="https://bunso-react.wpolive.com/static/media/1.5d6fc6b5442efcfa7bd2.jpg"
+              alt="img"
+              className="w-full h-auto rounded-lg"
+            />
+          </div>
+          <div className="text text-center p-4">
+            <span className="block text-gray-500">test</span>
+            <h2 className="text-lg font-semibold">test</h2>
+            <Link to={`/project-single/`} className="theme-btn mt-2 inline-block">
+              <i className="ti-arrow-right"></i>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> */}
 
 
 

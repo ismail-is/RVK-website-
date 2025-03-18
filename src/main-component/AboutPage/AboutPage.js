@@ -7,16 +7,16 @@ import Footer from '../../components/footer/Footer';
 import CtaSection from '../../components/CtaSection/CtaSection';
 import TeamSection from '../../components/TeamSection/TeamSection';
 import PartnersSecion from '../../components/PartnersSecion/PartnersSecion';
-import Logo from '../../images/logo.svg'
+import Logo from '../../images/allimg/logo/RVKlogo.png'
 import Cta from '../../components/Cta/Cta';
 import PricingSection from '../../components/PricingSection/PricingSection';
 const AboutPage = () => {
     return (
         <Fragment>
-            <Navbar Logo={Logo} />
+            <Navbar hclass={'wpo-header-style-3'} Logo={Logo} />
             <PageTitle pageTitle={'About Us'} pagesub={'About'} />
             <About />
-            <PricingSection/>
+            {/* <PricingSection/> */}
             <Cta />
             {/* <TeamSection /> */}
             <PartnersSecion />

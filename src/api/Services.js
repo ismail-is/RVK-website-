@@ -1,5 +1,5 @@
 import simg1 from '../images/allimg/service/1.jpg'
-import simg2 from '../images/service/2.jpg'
+import simg2 from '../images/allimg/acstand/stand.jpg'
 import simg3 from '../images/allimg/service/3.jpg'
 import simg4 from '../images/service/4.jpg'
 // import simg5 from '../images/service/5.jpg'
@@ -58,5 +58,6 @@ const Services = [
    },
  
 ]
+
 
 export default Services;

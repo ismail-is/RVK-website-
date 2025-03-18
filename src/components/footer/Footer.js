@@ -6,6 +6,7 @@ import footerBg from '../../images/footer-bg.jpg'
 import Shape1 from '../../images/sappot-shape.svg'
 import News1 from '../../images/news/img-01.jpg'
 import News2 from '../../images/news/img-01.jpg'
+import Footerlinks from '../../api/Footerlinks'
 
 
 const ClickHandler = () => {
@@ -18,7 +19,7 @@ const SubmitHandler = (e) => {
 
 const Footer = (props) => {
 
-    const [phoneNumber, setPhoneNumber] = useState('+88659789874');
+    const [phoneNumber, setPhoneNumber] = useState('+91 8197 2561 35');
 
     return (
         <footer className="wpo-site-footer">
@@ -36,7 +37,8 @@ const Footer = (props) => {
                         </div>
                         <div className="col-lg-5">
                             <div className="wpo-support-icon">
-                                <a href={`tel:${phoneNumber}`} className="support">
+                                {/* <a href={`tel:${phoneNumber}`} className="support"> */}
+                                <a href="tel:+918197256135" className="support">
                                     <div className="shape">
                                         <i className="fi flaticon-phone-call-1"></i>
                                     </div>
@@ -49,7 +51,7 @@ const Footer = (props) => {
                         <div className="col-lg-3">
                             <div className="wpo-support-munber">
                                 <span>Call Us Today:</span>
-                                <p>+88 659 789 874</p>
+                                <p> +91 8197 2561 35</p>
                             </div>
                         </div>
                     </div>
@@ -58,7 +60,22 @@ const Footer = (props) => {
             <div className="wpo-upper-footer">
                 <div className="container">
                     <div className="row">
-                        <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
+                        <div className="col col-lg-4 col-md-6 col-sm-12 col-12">
+                            <div className="widget link-widget">
+                                <div className="widget-title">
+                                    <h3>All Services:</h3>
+                                </div>
+                                <ul>
+                                    {Footerlinks.slice(0, 6).map((nav, sitem) => (
+                                        <li key={sitem}>
+                                            <Link onClick={ClickHandler} to={`/${nav.slug}`}>
+                                                <i className="ti-angle-right"></i>{nav.title}</Link>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col col-lg-4 col-md-6 col-sm-12 col-12">
                             <div className="widget link-widget">
                                 <div className="widget-title">
                                     <h3>All Services:</h3>
@@ -66,14 +83,40 @@ const Footer = (props) => {
                                 <ul>
                                     {Services.slice(0, 6).map((service, sitem) => (
                                         <li key={sitem}>
-                                            <Link onClick={ClickHandler} to={`/service-single/${service.slug}`}>
+                                            <Link onClick={ClickHandler} to={`/${service.slug}`}>
                                                 <i className="ti-angle-right"></i>{service.title}</Link>
                                         </li>
                                     ))}
                                 </ul>
                             </div>
                         </div>
-                        <div className="col col-lg-5 col-md-6 col-sm-12 col-12">
+                        <div className="col col-lg-4 col-md-6 col-sm-12 col-12">
+                            <div className="widget link-widget">
+                                <div className="widget-title">
+                                    <h3>Contact Us:</h3>
+                                </div>
+                                <ul>
+    <li>
+        <a href="tel:+918197256135">
+            <i className="fi flaticon-phone-call-1"></i> +91 8197 2561 35
+        </a>
+    </li>
+    <li>
+        <a href="tel:+918197256135">
+            <i className="fi flaticon-phone-call-1"></i> +91 8197 2561 35
+        </a>
+    </li>
+    <li>
+    <a href="mailto:rvksteelalloys@gmail.com">
+    <i className="fi flaticon-email"></i> rvksteelalloys@gmail.com
+</a>
+
+    </li>
+</ul>
+
+                            </div>
+                        </div>
+                        {/* <div className="col col-lg-4 col-md-6 col-sm-12 col-12">
                             <div className="widget contact-widget">
                                 <div className="shape-1"></div>
                                 <div className="shape-2"></div>
@@ -81,22 +124,14 @@ const Footer = (props) => {
                                     <h3>Contact Us:</h3>
                                 </div>
                                 <ul>
-                                    <li>Call: +88 659 789 874</li>
+                                    <li>Call: +91 8197 2561 354</li>
                                     <li>E-mail: bunso@gmail.com</li>
                                     <li>Website: www.bunso.com</li>
                                 </ul>
-                                <h4>Subscribe to Nesletter:</h4>
-                                <form>
-                                    <div className="input-1">
-                                        <input type="email" className="form-control" placeholder="Enter your email" required="" />
-                                    </div>
-                                    <div className="submit clearfix">
-                                        <button type="submit"><i className="fa flaticon-send" aria-hidden="true"></i></button>
-                                    </div>
-                                </form>
+                               
                             </div>
-                        </div>
-                        <div className="col col-lg-4 col-md-6 col-sm-12 col-12">
+                        </div> */}
+                        {/* <div className="col col-lg-4 col-md-6 col-sm-12 col-12">
                             <div className="widget blog-widget">
                                 <div className="widget-title">
                                     <h3>Blog Post:</h3>
@@ -122,7 +157,7 @@ const Footer = (props) => {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -130,9 +165,8 @@ const Footer = (props) => {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col col-lg-6 col-12">
-                            <p className="copyright"> Copyright &copy; 2024 bunso by <Link onClick={ClickHandler} to="/">wpOceans</Link>. All
-                                Rights Reserved.</p>
-                        </div>
+                            <p > Copyright &copy; 2025 RVK |  Powered By <a href="https://brightmedia.tech/" target='_blank' style={{color:'#FF5E14'}}> Bright Media</a></p>
+                        </div> 
                         <div className="col col-lg-6 col-12">
                             <div className="social-widget">
                                 <ul>

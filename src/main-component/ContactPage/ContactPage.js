@@ -4,12 +4,12 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 import Contactpage from '../../components/Contactpage/Contactpage'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
-import Logo from "../../images/logo.svg"
+import Logo from '../../images/allimg/logo/RVKlogo.png'
 
 const ContactPage =() => {
     return(
         <Fragment>
-            <Navbar Logo={Logo}/>
+            <Navbar  hclass={'wpo-header-style-3'} Logo={Logo}/>
             <PageTitle pageTitle={'Contact Us'} pagesub={'Contact'}/> 
             <Contactpage/>
             <Footer/>
