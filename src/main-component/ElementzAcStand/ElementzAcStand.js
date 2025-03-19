@@ -11,7 +11,7 @@ import Logo from '../../images/allimg/logo/RVKlogo.png'
 import Cta from '../../components/Cta/Cta';
 import simg1 from '../../images/allimg/acstand/1.jpg'
 import simg2 from '../../images/allimg/acstand/2.jpg'
-import simg from '../../images/allimg/acstand/stand.jpg'
+import simg from '../../images/allimg/ac.jpg'
 import ServiceSidebar from '../ServiceSinglePage/sidebar';
 import { Link } from 'react-router-dom';
 const ElementzAcStand = () => {

@@ -1,7 +1,8 @@
-import simg1 from '../images/allimg/service/1.jpg'
-import simg2 from '../images/allimg/acstand/stand.jpg'
-import simg3 from '../images/allimg/service/3.jpg'
-import simg4 from '../images/service/4.jpg'
+import simg1 from '../images/allimg/mainservice/1.jpg'
+import simg2 from '../images/allimg//mainservice/2.jpg'
+import simg3 from '../images/allimg//mainservice/3.jpg'
+import simg4 from '../images/allimg//mainservice/4.jpg'
+import simg5 from '../images/allimg//mainservice/5.jpg'
 // import simg5 from '../images/service/5.jpg'
 // import simg6 from '../images/service/6.jpg'
 
@@ -9,6 +10,7 @@ import sSimg1 from '../images/service-single/img-1.jpg'
 import sSimg2 from '../images/service-single/img-2.jpg'
 import sSimg3 from '../images/service-single/img-3.jpg'
 import sSimg4 from '../images/service-single/img-4.jpg'
+import sSimg45 from '../images/service-single/img-4.jpg'
 // import sSimg5 from '../images/service-single/img-5.jpg'
 // import sSimg6 from '../images/service-single/img-6.jpg'
 
@@ -50,8 +52,8 @@ const Services = [
    },
    {
       Id: '05',
-      sImg: simg4,
-      sSImg: sSimg4,
+      sImg: simg5,
+      // sSImg: sSimg5,
       title: 'HYBRID POWDER COATING  ',
       slug: 'HybridPowderCoating',
       description: 'The industry standard text and since took to make.',

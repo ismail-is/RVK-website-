@@ -9,8 +9,9 @@ import TeamSection from '../../components/TeamSection/TeamSection';
 import PartnersSecion from '../../components/PartnersSecion/PartnersSecion';
 import Logo from '../../images/allimg/logo/RVKlogo.png'
 import Cta from '../../components/Cta/Cta';
-import simg1 from '../../images/cable/cable.jpg'
-import simg2 from '../../images/service-single/3.jpg'
+import simg1 from '../../images/allimg/mainservice/4.jpg'
+import simg2 from '../../images/allimg/steel.jpg'
+import img from '../../images/allimg/banner4.jpg'
 import ServiceSidebar from '../ServiceSinglePage/sidebar';
 import { Link } from 'react-router-dom';
 const Pop = () => {
@@ -25,7 +26,7 @@ const Pop = () => {
                             <div className="wpo-service-single-wrap">
                                 <div className="wpo-service-single-item">
                                     <div className="wpo-service-single-main-img">
-                                        <img src='https://bunso-react.wpolive.com/static/media/img-2.c7b25fb32f0cf21bdc0c.jpg' alt="eimg" />
+                                        <img src={img} alt="eimg" />
                                     </div>
                                     <div className="wpo-service-single-title">
                                         <h3>POP Gripframes by RVK Steel & Alloys</h3>

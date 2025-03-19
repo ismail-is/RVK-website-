@@ -103,7 +103,7 @@ const Footer = (props) => {
     </li>
     <li>
         <a href="tel:+918197256135">
-            <i className="fi flaticon-phone-call-1"></i> +91 8197 2561 35
+            <i className="fi flaticon-phone-call-1"></i> +91 8722 0651 11
         </a>
     </li>
     <li>

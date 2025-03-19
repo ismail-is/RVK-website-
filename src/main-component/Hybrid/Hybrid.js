@@ -9,8 +9,9 @@ import TeamSection from '../../components/TeamSection/TeamSection';
 import PartnersSecion from '../../components/PartnersSecion/PartnersSecion';
 import Logo from '../../images/allimg/logo/RVKlogo.png'
 import Cta from '../../components/Cta/Cta';
-import simg1 from '../../images/service-single/2.jpg'
+import simg1 from '../../images/allimg/mainservice/5.jpg'
 import simg2 from '../../images/service-single/3.jpg'
+import simg from '../../images/allimg/banner5.jpg'
 import ServiceSidebar from '../ServiceSinglePage/sidebar';
 import { Link } from 'react-router-dom';
 const Hybrid  = () => {
@@ -25,7 +26,7 @@ const Hybrid  = () => {
                             <div className="wpo-service-single-wrap">
                                 <div className="wpo-service-single-item">
                                     <div className="wpo-service-single-main-img">
-                                        <img src='https://bunso-react.wpolive.com/static/media/img-2.c7b25fb32f0cf21bdc0c.jpg' alt="eimg" />
+                                        <img src={simg} alt="eimg" />
                                     </div>
                                     <div className="wpo-service-single-title">
                                         <h3>Hybrid Powder Coating by RVK Steel & Alloys</h3>
@@ -33,16 +34,12 @@ const Hybrid  = () => {
                                     <p>Our Hybrid Powder Coating offers a durable, smooth, and corrosion-resistant finish for metal surfaces. Combining the benefits of epoxy and polyester coatings, it ensures high impact resistance, UV stability, and a superior aesthetic appeal. Ideal for industrial, architectural, and commercial applications, providing long-lasting protection against wear and tear.</p>
                                    
                                     <div className="row mt-4">
-                                        <div className="col-md-6 col-sm-6 col-12">
+                                        <div className="col-md-12 col-sm-6 col-12">
                                             <div className="wpo-p-details-img">
                                                 <img src={simg1} alt="eimg" />
                                             </div>
                                         </div>
-                                        <div className="col-md-6 col-sm-6 col-12">
-                                            <div className="wpo-p-details-img">
-                                                <img src={simg2} alt="eimg" />
-                                            </div>
-                                        </div>
+                                       
                                     </div>
                                 </div>
                                 {/* <div className="wpo-service-single-item list-widget">
