@@ -4450,7 +4450,7 @@ nav.navigation.navbar.navbar-expand-lg.navbar-light.sticky-header.sticky-on {
   z-index: 9;
 }
 .wpo-service-section::before {
-  background: url(../../images/service/service-bg.jpg);
+  background: url(../../images/allimg/footer.jpg);
   position: absolute;
   right: 0;
   top: 0;

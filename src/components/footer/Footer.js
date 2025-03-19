@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import Services from '../../api/Services'
-import footerBg from '../../images/footer-bg.jpg'
+import footerBg from '../../images/allimg/footer.jpg'
 import Shape1 from '../../images/sappot-shape.svg'
 import News1 from '../../images/news/img-01.jpg'
 import News2 from '../../images/news/img-01.jpg'
