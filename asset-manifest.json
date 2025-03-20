@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/RVK-website-/static/css/main.160178f7.css",
-    "main.js": "/RVK-website-/static/js/main.f3e508fd.js",
+    "main.css": "/RVK-website-/static/css/main.f851582a.css",
+    "main.js": "/RVK-website-/static/js/main.763bdf25.js",
     "static/js/787.823c83fe.chunk.js": "/RVK-website-/static/js/787.823c83fe.chunk.js",
-    "static/media/banner.png": "/RVK-website-/static/media/banner.1ae403a99296c9909b67.png",
+    "static/media/contactbanner.png": "/RVK-website-/static/media/contactbanner.87577e9585ec41e3dd86.png",
+    "static/media/aboutbanner.png": "/RVK-website-/static/media/aboutbanner.8671f86a784d87af9530.png",
+    "static/media/banner.png": "/RVK-website-/static/media/banner.98545bdc33a4c71d931a.png",
     "static/media/footer.jpg": "/RVK-website-/static/media/footer.c5d566384b82d2ae437e.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/RVK-website-/static/media/fontawesome-webfont.ed6298903ae1554c7f3e.svg",
     "static/media/pop3.jpg": "/RVK-website-/static/media/pop3.d6f20d04d2950a446472.jpg",
@@ -63,12 +65,12 @@
     "index.html": "/RVK-website-/index.html",
     "static/media/sappot-shape.svg": "/RVK-website-/static/media/sappot-shape.de16c868c146a966fb9805f6739fe822.svg",
     "static/media/title-shape.svg": "/RVK-website-/static/media/title-shape.bfe66cc5a470d4747b0c0d08df351335.svg",
-    "main.160178f7.css.map": "/RVK-website-/static/css/main.160178f7.css.map",
-    "main.f3e508fd.js.map": "/RVK-website-/static/js/main.f3e508fd.js.map",
+    "main.f851582a.css.map": "/RVK-website-/static/css/main.f851582a.css.map",
+    "main.763bdf25.js.map": "/RVK-website-/static/js/main.763bdf25.js.map",
     "787.823c83fe.chunk.js.map": "/RVK-website-/static/js/787.823c83fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.160178f7.css",
-    "static/js/main.f3e508fd.js"
+    "static/css/main.f851582a.css",
+    "static/js/main.763bdf25.js"
   ]
 }
