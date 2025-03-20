@@ -10,11 +10,12 @@ import PartnersSecion from '../../components/PartnersSecion/PartnersSecion';
 import Logo from '../../images/allimg/logo/RVKlogo.png'
 import Cta from '../../components/Cta/Cta';
 import PricingSection from '../../components/PricingSection/PricingSection';
+import AboutBanner from '../../components/AboutBanner/AboutBanner';
 const AboutPage = () => {
     return (
         <Fragment>
             <Navbar hclass={'wpo-header-style-3'} Logo={Logo} />
-            <PageTitle pageTitle={'ABOUT US'} pagesub={'About'} />
+            <AboutBanner pageTitle={'ABOUT US'} pagesub={'About'} />
             <About />
             {/* <PricingSection/> */}
             <Cta />

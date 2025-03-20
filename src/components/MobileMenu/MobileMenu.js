@@ -188,7 +188,7 @@ const MobileMenu = () => {
 
     return (
         <div>
-            <div className={`mobileMenu ${menuActive ? "show" : ""}`}>
+            <div className={`mobileMenu ${menuActive ? "show" : ""}`} style={{backgroundColor:'#02245B'}}>
                 <div className="menu-close">
                     <div className="clox" onClick={() => setMenuState(!menuActive)}><i className="ti-close"></i></div>
                 </div>

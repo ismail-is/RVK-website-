@@ -5,12 +5,13 @@ import Contactpage from '../../components/Contactpage/Contactpage'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
 import Logo from '../../images/allimg/logo/RVKlogo.png'
+import ContactBanner from '../../components/ContactBanner/ContactBanner';
 
 const ContactPage =() => {
     return(
         <Fragment>
             <Navbar  hclass={'wpo-header-style-3'} Logo={Logo}/>
-            <PageTitle pageTitle={'CONTACT US'} pagesub={'Contact'}/> 
+            <ContactBanner pageTitle={'CONTACT US'} pagesub={'Contact'}/> 
             <Contactpage/>
             <Footer/>
             <Scrollbar/>
