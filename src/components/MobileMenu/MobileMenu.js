@@ -161,17 +161,17 @@ const menus = [
     {
         id: 89,
         title: 'About',
-        link: 'about',
+        link: '/about',
     },
     {
         id: 90,
         title: 'Product',
-        link: 'Products',
+        link: '/Products',
     },
     {
         id: 91,
         title: 'Contact',
-        link: 'contact',
+        link: '/contact',
     },
   
 ]
