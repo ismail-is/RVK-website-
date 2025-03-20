@@ -32,7 +32,7 @@ const Header = (props) => {
                                     <ul className="nav navbar-nav mb-2 mb-lg-0">
                                     <li><Link onClick={ClickHandler} to="/">Home</Link></li>
                                     <li><Link onClick={ClickHandler} to="/about">About</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/Products">Product</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/Products">Products</Link></li>
                                     <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
 
 

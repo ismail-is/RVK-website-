@@ -85,10 +85,13 @@ const ContactForm = () => {
                             onChange={(e) => changeHandler(e)}
                             value={forms.subject}
                             type="text"
-                            name="subject">
-                            <option>Mechanical Engineering</option>
-                            <option>Petroleum Refinery</option>
-                            <option>Power &amp; Energy</option>
+                            name="Produts">
+                            <option>Products </option>
+                            <option>HVAC DUCTS</option>
+                            <option>ELEMENTZ AC STAND</option>
+                            <option>CABLE TRAY</option>
+                            <option>POP GRIPFRAMES</option>
+                            <option>HYBRID POWDER COATING</option>
                         </select>
                         {validator.message('subject', forms.subject, 'required')}
                     </div>

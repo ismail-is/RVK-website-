@@ -165,7 +165,7 @@ const menus = [
     },
     {
         id: 90,
-        title: 'Product',
+        title: 'Products',
         link: '/Products',
     },
     {

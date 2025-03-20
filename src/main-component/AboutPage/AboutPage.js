@@ -14,7 +14,7 @@ const AboutPage = () => {
     return (
         <Fragment>
             <Navbar hclass={'wpo-header-style-3'} Logo={Logo} />
-            <PageTitle pageTitle={'About Us'} pagesub={'About'} />
+            <PageTitle pageTitle={'ABOUT US'} pagesub={'About'} />
             <About />
             {/* <PricingSection/> */}
             <Cta />

@@ -9,7 +9,7 @@ const Products = () => {
     return (
         <Fragment>
             <Navbar  hclass={'wpo-header-style-3'} Logo={Logo}/>
-            <PageTitle pageTitle={'Products'} pagesub={'Products'} />
+            <PageTitle pageTitle={'PRODUCTS '} pagesub={'Products'} />
             <ServiceSection />
             <Footer />
             <Scrollbar />
