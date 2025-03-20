@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RVK-website-/static/css/main.45e14084.css",
-    "main.js": "/RVK-website-/static/js/main.bc472e64.js",
+    "main.js": "/RVK-website-/static/js/main.6d149520.js",
     "static/js/787.823c83fe.chunk.js": "/RVK-website-/static/js/787.823c83fe.chunk.js",
     "static/media/footer.jpg": "/RVK-website-/static/media/footer.c5d566384b82d2ae437e.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/RVK-website-/static/media/fontawesome-webfont.ed6298903ae1554c7f3e.svg",
@@ -60,11 +60,11 @@
     "static/media/sappot-shape.svg": "/RVK-website-/static/media/sappot-shape.de16c868c146a966fb9805f6739fe822.svg",
     "static/media/title-shape.svg": "/RVK-website-/static/media/title-shape.bfe66cc5a470d4747b0c0d08df351335.svg",
     "main.45e14084.css.map": "/RVK-website-/static/css/main.45e14084.css.map",
-    "main.bc472e64.js.map": "/RVK-website-/static/js/main.bc472e64.js.map",
+    "main.6d149520.js.map": "/RVK-website-/static/js/main.6d149520.js.map",
     "787.823c83fe.chunk.js.map": "/RVK-website-/static/js/787.823c83fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45e14084.css",
-    "static/js/main.bc472e64.js"
+    "static/js/main.6d149520.js"
   ]
 }
