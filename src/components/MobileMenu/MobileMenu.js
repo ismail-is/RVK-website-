@@ -6,160 +6,174 @@ import { NavLink } from "react-router-dom";
 import './style.css';
 
 const menus = [
-    {
-        id: 1,
-        title: 'Home',
-        link: '/home',
-        submenu: [
-            {
-                id: 11,
-                title: 'Home style 1',
-                link: '/'
-            },
-            {
-                id: 12,
-                title: 'Home style 2',
-                link: '/home-2'
-            },
-            {
-                id: 13,
-                title: 'Home style 3',
-                link: '/home-3'
-            },
-            {
-                id: 14,
-                title: 'Home style 4',
-                link: '/home-4'
-            }
-        ]
-    },
+    // {
+    //     id: 1,
+    //     title: 'Home',
+    //     link: '/home',
+    //     submenu: [
+    //         {
+    //             id: 11,
+    //             title: 'Home style 1',
+    //             link: '/'
+    //         },
+    //         {
+    //             id: 12,
+    //             title: 'Home style 2',
+    //             link: '/home-2'
+    //         },
+    //         {
+    //             id: 13,
+    //             title: 'Home style 3',
+    //             link: '/home-3'
+    //         },
+    //         {
+    //             id: 14,
+    //             title: 'Home style 4',
+    //             link: '/home-4'
+    //         }
+    //     ]
+    // },
 
-    {
-        id: 6,
-        title: 'Service',
-        link: '/service',
-        submenu: [
-            {
-                id: 61,
-                title: 'Service',
-                link: '/service',
-            },
-            {
-                id: 62,
-                title: 'Service Single',
-                link: '/service-single/Civil-Engineering'
-            }
-        ]
-    },
-    {
-        id: 7,
-        title: 'Project',
-        link: '/project',
-        submenu: [
-            {
-                id: 71,
-                title: 'Project',
-                link: '/project',
-            },
-            {
-                id: 72,
-                title: 'Project Single',
-                link: '/project-single/1'
-            },
-        ]
-    },
-    {
-        id: 3,
-        title: 'Pages',
-        link: '/',
-        submenu: [
-            {
-                id: 31,
-                title: 'About',
-                link: '/about'
-            },
-            {
-                id: 32,
-                title: 'Shop',
-                link: '/shop'
-            },
-            {
-                id: 33,
-                title: 'Shop Single',
-                link: '/product-single/Impact-Drill-Yato-Brand'
-            },
-            {
-                id: 34,
-                title: 'Cart',
-                link: '/cart'
-            },
-            {
-                id: 35,
-                title: 'Checkout',
-                link: '/checkout'
-            },
-            {
-                id: 36,
-                title: 'Pricing',
-                link: '/pricing'
-            },
-            {
-                id: 37,
-                title: 'Team',
-                link: '/team'
-            },
-            {
-                id: 38,
-                title: 'Team Single',
-                link: '/team-single/1'
-            },
-        ]
-    },
+    // {
+    //     id: 6,
+    //     title: 'Service',
+    //     link: '/service',
+    //     submenu: [
+    //         {
+    //             id: 61,
+    //             title: 'Service',
+    //             link: '/service',
+    //         },
+    //         {
+    //             id: 62,
+    //             title: 'Service Single',
+    //             link: '/service-single/Civil-Engineering'
+    //         }
+    //     ]
+    // },
+    // {
+    //     id: 7,
+    //     title: 'Project',
+    //     link: '/project',
+    //     submenu: [
+    //         {
+    //             id: 71,
+    //             title: 'Project',
+    //             link: '/project',
+    //         },
+    //         {
+    //             id: 72,
+    //             title: 'Project Single',
+    //             link: '/project-single/1'
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 3,
+    //     title: 'Pages',
+    //     link: '/',
+    //     submenu: [
+    //         {
+    //             id: 31,
+    //             title: 'About',
+    //             link: '/about'
+    //         },
+    //         {
+    //             id: 32,
+    //             title: 'Shop',
+    //             link: '/shop'
+    //         },
+    //         {
+    //             id: 33,
+    //             title: 'Shop Single',
+    //             link: '/product-single/Impact-Drill-Yato-Brand'
+    //         },
+    //         {
+    //             id: 34,
+    //             title: 'Cart',
+    //             link: '/cart'
+    //         },
+    //         {
+    //             id: 35,
+    //             title: 'Checkout',
+    //             link: '/checkout'
+    //         },
+    //         {
+    //             id: 36,
+    //             title: 'Pricing',
+    //             link: '/pricing'
+    //         },
+    //         {
+    //             id: 37,
+    //             title: 'Team',
+    //             link: '/team'
+    //         },
+    //         {
+    //             id: 38,
+    //             title: 'Team Single',
+    //             link: '/team-single/1'
+    //         },
+    //     ]
+    // },
 
-    {
-        id: 5,
-        title: 'Blog',
-        link: '/blog',
-        submenu: [
-            {
-                id: 51,
-                title: 'Blog',
-                link: '/blog'
-            },
-            {
-                id: 52,
-                title: 'Blog Left sidebar',
-                link: '/blog-left'
-            },
-            {
-                id: 53,
-                title: 'Blog full width',
-                link: '/blog-fullwidth'
-            },
-            {
-                id: 54,
-                title: 'Blog single',
-                link: '/blog-single/1'
-            },
-            {
-                id: 55,
-                title: 'Blog single Left sidebar',
-                link: '/blog-single-left-sidebar/1'
-            },
-            {
-                id: 56,
-                title: 'Blog single Left sidebar',
-                link: '/blog-single-fullwidth/1'
-            },
-        ]
-    },
+    // {
+    //     id: 5,
+    //     title: 'Blog',
+    //     link: '/blog',
+    //     submenu: [
+    //         {
+    //             id: 51,
+    //             title: 'Blog',
+    //             link: '/blog'
+    //         },
+    //         {
+    //             id: 52,
+    //             title: 'Blog Left sidebar',
+    //             link: '/blog-left'
+    //         },
+    //         {
+    //             id: 53,
+    //             title: 'Blog full width',
+    //             link: '/blog-fullwidth'
+    //         },
+    //         {
+    //             id: 54,
+    //             title: 'Blog single',
+    //             link: '/blog-single/1'
+    //         },
+    //         {
+    //             id: 55,
+    //             title: 'Blog single Left sidebar',
+    //             link: '/blog-single-left-sidebar/1'
+    //         },
+    //         {
+    //             id: 56,
+    //             title: 'Blog single Left sidebar',
+    //             link: '/blog-single-fullwidth/1'
+    //         },
+    //     ]
+    // },
     {
         id: 88,
+        title: 'Home',
+        link: '/',
+    },
+    {
+        id: 89,
+        title: 'About',
+        link: 'about',
+    },
+    {
+        id: 90,
+        title: 'Product',
+        link: 'Products',
+    },
+    {
+        id: 91,
         title: 'Contact',
-        link: '/contact',
-    }
-
-
+        link: 'contact',
+    },
+  
 ]
 
 
