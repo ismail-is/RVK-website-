@@ -9,11 +9,12 @@ import TeamSection from '../../components/TeamSection/TeamSection';
 import PartnersSecion from '../../components/PartnersSecion/PartnersSecion';
 import Logo from '../../images/allimg/logo/RVKlogo.png'
 import Cta from '../../components/Cta/Cta';
-import simg1 from '../../images/allimg/mainservice/4.jpg'
-import simg2 from '../../images/allimg/steel.jpg'
+import simg1 from '../../images/allimg/mainbanners/pop/7.jpg'
+import simg2 from '../../images/allimg/mainbanners/pop/8.jpg'
 import img from '../../images/allimg/banner4.jpg'
 import ServiceSidebar from '../ServiceSinglePage/sidebar';
 import { Link } from 'react-router-dom';
+import PopSections from '../../components/PopSections/PopSections';
 const Pop = () => {
     return (
         <Fragment>
@@ -177,8 +178,9 @@ const Pop = () => {
                     </ul> */}
                 </div>
             </div>
+           
         </div>
-
+        <PopSections/>
 
 
                     </div>

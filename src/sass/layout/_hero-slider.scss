@@ -935,7 +935,7 @@
 // static-hero-s3
 
 .static-hero-s2 {
-	background: url(../../images/allimg/homebanner.jpg) no-repeat center center;
+	background: url(../../images/allimg/banner.png) no-repeat center center;
 	max-height: 950px;
 
 	@include media-query(1400px) {
@@ -958,7 +958,7 @@
 		height: 100%;
 		content: '';
 		z-index: -1;
-		// background: $theme-primary-color-s2;
+		background: $theme-primary-color-s2;
 		opacity: .8;
 	}
 

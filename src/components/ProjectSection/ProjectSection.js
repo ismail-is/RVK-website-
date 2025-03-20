@@ -2,8 +2,10 @@ import { useState } from "react";
 import Slider from 'react-slick';
 import { Link } from "react-router-dom";
 import SectionTitle from "../SectionTitle/SectionTitle";
-import Projects from "../../api/projects";
-
+// import Projects from "../../api/projects";
+import pimg2 from '../../images/project/2.jpg'
+import pimg3 from '../../images/project/3.jpg'
+import pimg1 from '../../images/project/1.jpg'
 
 const ProjectSection = () => {
 
@@ -54,6 +56,80 @@ const ProjectSection = () => {
         setOpenTab(id)
     }
 
+
+
+    
+    const Data = [
+        {
+            id: '1',
+            title: 'Gas & Oil Engeneering',
+            subtitle: 'FACTORY / INDUSTRY',
+            slug: '1',
+            pimg1: pimg1,
+            date: 'Feb 2019',
+            location: 'Austria',
+            type: 'Civil Engineer',
+            service: 'Industrial, Mechanical',
+            duration: '12 Years',
+            add: 'Millington, Ave, TN 38053',
+            architect: 'Don Johnson',
+            share: 'Industrial, Business',
+            fax: ' 568 746 987'
+        },
+        {
+            id: '2',
+            title: 'Gas & Oil Engeneering',
+            subtitle: 'FACTORY / INDUSTRY',
+            slug: '2',
+            pimg1: pimg2,
+            date: 'Feb 2019',
+            location: 'Austria',
+            type: 'Civil Engineer',
+            service: 'Industrial, Mechanical',
+            duration: '12 Years',
+            add: 'Millington, Ave, TN 38053',
+            architect: 'Don Johnson',
+            share: 'Industrial, Business',
+            fax: ' 568 746 987'
+        },
+        {
+            id: '4',
+            title: 'Gas & Oil Engeneering',
+            subtitle: 'FACTORY / INDUSTRY',
+            slug: '3',
+            pimg1: pimg3,
+            date: 'Feb 2019',
+            location: 'Austria',
+            type: 'Civil Engineer',
+            service: 'Industrial, Mechanical',
+            duration: '12 Years',
+            add: 'Millington, Ave, TN 38053',
+            architect: 'Don Johnson',
+            share: 'Industrial, Business',
+            fax: ' 568 746 987'
+        },
+        {
+            id: '3',
+            title: 'Gas & Oil Engeneering',
+            subtitle: 'FACTORY / INDUSTRY',
+            slug: '3',
+            pimg1: pimg3,
+            date: 'Feb 2019',
+            location: 'Austria',
+            type: 'Civil Engineer',
+            service: 'Industrial, Mechanical',
+            duration: '12 Years',
+            add: 'Millington, Ave, TN 38053',
+            architect: 'Don Johnson',
+            share: 'Industrial, Business',
+            fax: ' 568 746 987'
+        },
+
+
+        
+    
+    
+    ]
     return (
         <section className="wpo-project-section section-padding">
             <div className="container">
@@ -62,7 +138,7 @@ const ProjectSection = () => {
                         < SectionTitle subtitle="WHAT WE DO" title="Complete Projects" />
                     </div>
                 </div>
-                <div className="wpo-project-wrap">
+                {/* <div className="wpo-project-wrap">
                     <div className="row">
                         <div className="col-lg-6 col-12">
                             <div className="wpo-project-item">
@@ -80,14 +156,14 @@ const ProjectSection = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
             <div className="wpo-project-content">
                 <div className="container-fluid">
                     {openTab == "construction" &&
                         <div className="wpo-engeneer-slider">
                             <Slider {...settings}>
-                                {Projects.slice(0, 4).map((project, pkey) => (
+                                {Data.slice(0, 4).map((project, pkey) => (
                                     <div className="grid" key={pkey}>
                                         <div className="images">
                                             <img src={project.pimg1} alt="img" />
@@ -106,7 +182,7 @@ const ProjectSection = () => {
                     {openTab == "engeneering" &&
                         <div className="wpo-engeneer-slider">
                             <Slider {...settings}>
-                                {Projects.slice(3, 7).map((project, pkey) => (
+                                {Data.slice(3, 7).map((project, pkey) => (
                                     <div className="grid" key={pkey}>
                                         <div className="images">
                                             <img src={project.pimg1} alt="img" />
@@ -125,7 +201,7 @@ const ProjectSection = () => {
                     {openTab == "industry" &&
                         <div className="wpo-engeneer-slider">
                             <Slider {...settings}>
-                                {Projects.slice(5, 9).map((project, pkey) => (
+                                {Data.slice(5, 9).map((project, pkey) => (
                                     <div className="grid" key={pkey}>
                                         <div className="images">
                                             <img src={project.pimg1} alt="img" />

@@ -11,10 +11,11 @@ import Logo from '../../images/allimg/logo/RVKlogo.png'
 import Cta from '../../components/Cta/Cta';
 import simg1 from '../../images/allimg/Ducts/CABLE1.jpg'
 import simg2 from '../../images/allimg/Ducts/CABLE2.jpg'
-import Img1 from '../../images/allimg/service/3.jpg'
+import Img1 from '../../images/allimg/mainbanners/pop/pop3.jpg'
 import ServiceSidebar from '../ServiceSinglePage/sidebar';
 import { Link } from 'react-router-dom';
 import Contact from '../ServiceSinglePage/contact';
+import CableSections from '../../components/CableSections/CableSections';
 const CableTray = () => {
     return (
         <Fragment>
@@ -207,6 +208,8 @@ const CableTray = () => {
 </div> */}
 
 
+
+<CableSections/>
 
                     </div>
                 </div>

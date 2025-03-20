@@ -14,6 +14,7 @@ import simg2 from '../../images/allimg/Ducts/2.jpg'
 import Img1 from '../../images/allimg/service/1.jpg'
 import ServiceSidebar from '../ServiceSinglePage/sidebar';
 import { Link } from 'react-router-dom';
+import DuctsSections from '../../components/DuctsSections/DuctsSections';
 const Ducts = () => {
     return (
         <Fragment>
@@ -179,7 +180,7 @@ const Ducts = () => {
             </div>
         </div>
 
-
+<DuctsSections/>
 
                     </div>
                 </div>

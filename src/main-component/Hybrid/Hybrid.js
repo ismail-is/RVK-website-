@@ -10,10 +10,12 @@ import PartnersSecion from '../../components/PartnersSecion/PartnersSecion';
 import Logo from '../../images/allimg/logo/RVKlogo.png'
 import Cta from '../../components/Cta/Cta';
 import simg1 from '../../images/allimg/mainservice/5.jpg'
-import simg2 from '../../images/service-single/3.jpg'
-import simg from '../../images/allimg/banner5.jpg'
+import simg2 from '../../images/allimg/mainbanners/pop/coating.jpg'
+// import simg2 from '../../images/allimg/banner5.jpg'
+import simg from '../../images/allimg/mainbanners/pop/pop.jpg'
 import ServiceSidebar from '../ServiceSinglePage/sidebar';
 import { Link } from 'react-router-dom';
+import HybridSections from '../../components/HybridSections/HybridSections';
 const Hybrid  = () => {
     return (
         <Fragment>
@@ -34,12 +36,16 @@ const Hybrid  = () => {
                                     <p>Our Hybrid Powder Coating offers a durable, smooth, and corrosion-resistant finish for metal surfaces. Combining the benefits of epoxy and polyester coatings, it ensures high impact resistance, UV stability, and a superior aesthetic appeal. Ideal for industrial, architectural, and commercial applications, providing long-lasting protection against wear and tear.</p>
                                    
                                     <div className="row mt-4">
-                                        <div className="col-md-12 col-sm-6 col-12">
+                                        <div className="col-md-6 col-sm-6 col-12">
                                             <div className="wpo-p-details-img">
                                                 <img src={simg1} alt="eimg" />
                                             </div>
                                         </div>
-                                       
+                                        <div className="col-md-6 col-sm-6 col-12">
+                                            <div className="wpo-p-details-img">
+                                                <img src={simg2} alt="eimg" />
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 {/* <div className="wpo-service-single-item list-widget">
@@ -175,7 +181,7 @@ const Hybrid  = () => {
             </div>
         </div>
 
-
+<HybridSections/>
 
                     </div>
                 </div>

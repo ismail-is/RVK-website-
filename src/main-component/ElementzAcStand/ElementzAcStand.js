@@ -9,11 +9,13 @@ import TeamSection from '../../components/TeamSection/TeamSection';
 import PartnersSecion from '../../components/PartnersSecion/PartnersSecion';
 import Logo from '../../images/allimg/logo/RVKlogo.png'
 import Cta from '../../components/Cta/Cta';
-import simg1 from '../../images/allimg/acstand/1.jpg'
-import simg2 from '../../images/allimg/acstand/2.jpg'
-import simg from '../../images/allimg/ac.jpg'
+import simg1 from '../../images/allimg/mainbanners/ac/3.jpg'
+import simg2 from '../../images/allimg/mainbanners/ac/2.jpg'
+import simg from '../../images/allimg/mainbanners/acbanner.jpg'
 import ServiceSidebar from '../ServiceSinglePage/sidebar';
 import { Link } from 'react-router-dom';
+import ProjectSection from '../../components/ProjectSection/ProjectSection';
+import ElementzSections from '../../components/ElementzSections/ElementzSections';
 const ElementzAcStand = () => {
     return (
         <Fragment>
@@ -176,7 +178,7 @@ const ElementzAcStand = () => {
             </div>
         </div>
 
-
+<ElementzSections/>
 
                     </div>
                 </div>
