@@ -1,14 +1,20 @@
 {
   "files": {
     "main.css": "/RVK-website-/static/css/main.f851582a.css",
-    "main.js": "/RVK-website-/static/js/main.763bdf25.js",
+    "main.js": "/RVK-website-/static/js/main.ec442b9f.js",
     "static/js/787.823c83fe.chunk.js": "/RVK-website-/static/js/787.823c83fe.chunk.js",
     "static/media/contactbanner.png": "/RVK-website-/static/media/contactbanner.87577e9585ec41e3dd86.png",
     "static/media/aboutbanner.png": "/RVK-website-/static/media/aboutbanner.8671f86a784d87af9530.png",
     "static/media/banner.png": "/RVK-website-/static/media/banner.98545bdc33a4c71d931a.png",
     "static/media/footer.jpg": "/RVK-website-/static/media/footer.c5d566384b82d2ae437e.jpg",
+    "static/media/2.png": "/RVK-website-/static/media/2.d82fb5ba4daf57c9e62d.png",
+    "static/media/4.png": "/RVK-website-/static/media/4.535091a388f53a989260.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/RVK-website-/static/media/fontawesome-webfont.ed6298903ae1554c7f3e.svg",
+    "static/media/3.png": "/RVK-website-/static/media/3.a7e1894787bf227bb552.png",
+    "static/media/1.png": "/RVK-website-/static/media/1.6f4204aa65a25035cad7.png",
+    "static/media/5.png": "/RVK-website-/static/media/5.d1033e6046b80bd9650a.png",
     "static/media/pop3.jpg": "/RVK-website-/static/media/pop3.d6f20d04d2950a446472.jpg",
+    "static/media/6.png": "/RVK-website-/static/media/6.533a845ebe136dae9b11.png",
     "static/media/themify.svg?-fvbane": "/RVK-website-/static/media/themify.f0fc8c798eac5636249c.svg",
     "static/media/flaticon.svg?": "/RVK-website-/static/media/flaticon.5031b562fa9a106be686.svg",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/RVK-website-/static/media/fontawesome-webfont.f0af1680f082547a7aae.ttf",
@@ -66,11 +72,11 @@
     "static/media/sappot-shape.svg": "/RVK-website-/static/media/sappot-shape.de16c868c146a966fb9805f6739fe822.svg",
     "static/media/title-shape.svg": "/RVK-website-/static/media/title-shape.bfe66cc5a470d4747b0c0d08df351335.svg",
     "main.f851582a.css.map": "/RVK-website-/static/css/main.f851582a.css.map",
-    "main.763bdf25.js.map": "/RVK-website-/static/js/main.763bdf25.js.map",
+    "main.ec442b9f.js.map": "/RVK-website-/static/js/main.ec442b9f.js.map",
     "787.823c83fe.chunk.js.map": "/RVK-website-/static/js/787.823c83fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f851582a.css",
-    "static/js/main.763bdf25.js"
+    "static/js/main.ec442b9f.js"
   ]
 }
