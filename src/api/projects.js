@@ -1,14 +1,12 @@
-import pimg1 from '../images/project/1.jpg'
-import pimg2 from '../images/project/2.jpg'
-import pimg3 from '../images/project/3.jpg'
-import pimg4 from '../images/project/4.jpg'
-import pimg5 from '../images/project/5.jpg'
-import pimg6 from '../images/project/6.jpg'
-import pimg7 from '../images/project/7.jpg'
-import pimg8 from '../images/project/8.jpg'
-import pimg9 from '../images/project/9.jpg'
-
-
+import pimg1 from '../images/allimg/shoot/1.png'
+import pimg2 from '../images/allimg/shoot/2.png'
+import pimg3 from '../images/allimg/shoot/3.png'
+import pimg4 from '../images/allimg/shoot/4.png'
+import pimg5 from '../images/allimg/shoot/5.png'
+import pimg6 from '../images/allimg/shoot/6.png'
+import pimg7 from '../images/allimg/shoot/1.png'
+import pimg8 from '../images/allimg/shoot/2.png'
+import pimg9 from '../images/allimg/shoot/3.png'
 
 
 const Projects = [

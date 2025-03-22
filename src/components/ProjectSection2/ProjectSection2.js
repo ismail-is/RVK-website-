@@ -48,14 +48,14 @@ const ProjectSection2 = () => {
     };
 
     return(
-        <section className="wpo-project-section-s2 section-padding">
-            <div className="container">
+        <section className="wpo-project-section-s2">
+            {/* <div className="container">
                 <div className="row justify-content-center">
                     <div className="col col-lg-6 col-12">
                         <SectionTitle title="Complete Projects" subtitle="WHAT WE DO"/>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="wpo-project-content">
                 <div className="container-fluid">
                     <div className="wpo-construction-wrap">
@@ -66,12 +66,12 @@ const ProjectSection2 = () => {
                                         <div className="images">
                                             <img src={project.pimg1} alt="img" />
                                         </div>
-                                        <div className="text">
+                                        {/* <div className="text">
                                             <span>{project.subtitle}</span>
                                             <h2>{project.title}</h2>
                                             <Link onClick={ClickHandlar} to={`/project-single/${project.slug}`} className="theme-btn"><i
                                                 className="ti-arrow-right"></i></Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 ))}
                             </Slider>

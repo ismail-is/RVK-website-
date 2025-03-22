@@ -14,6 +14,7 @@ import Scrollbar from '../../components/scrollbar/scrollbar';
 import Logo from '../../images/allimg/logo/RVKlogo.png'
 import Hero3 from '../../components/hero3/hero3';
 import FunFact from '../../components/FunFact/FunFact';
+import ProjectSection2 from '../../components/ProjectSection2/ProjectSection2';
 const HomePage = () => {
     return (
         <Fragment>
@@ -29,7 +30,9 @@ const HomePage = () => {
             {/* < ProjectSection /> */}
             {/* <TestimonialSection /> */}
             {/* <BlogSection /> */}
+            
             <PartnersSecion />
+            <ProjectSection2/>
              <CtaSection />
             <Footer />
             <Scrollbar />
