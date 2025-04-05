@@ -3,10 +3,10 @@ import Slider from 'react-slick';
 import { Link } from "react-router-dom";
 import SectionTitle from "../SectionTitle/SectionTitle";
 // import Projects from "../../api/projects";
-import pimg1 from '../../images/allimg/mainservice/1.jpg'
-import pimg2 from '../../images/allimg/mainbanners/ac/ac.jpg'
-import pimg4 from '../../images/allimg/mainbanners/pop/pop5.png'
-import pimg3 from '../../images/allimg/mainbanners/pop/8.jpg'
+import pimg1 from '../../images/new/5.png'
+import pimg2 from '../../images/new/1.png'
+import pimg4 from '../../images/new/2.png'
+import pimg3 from '../../images/new/4.png'
 import pimg5 from '../../images/allimg//mainservice/5.jpg'
 const HybridSections = () => {
 

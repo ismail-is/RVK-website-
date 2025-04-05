@@ -11,6 +11,7 @@ import Logo from '../../images/allimg/logo/RVKlogo.png'
 import Cta from '../../components/Cta/Cta';
 import simg1 from '../../images/allimg/mainbanners/pop/7.jpg'
 import simg2 from '../../images/allimg/mainbanners/pop/8.jpg'
+import simg3 from '../../images/new/4.png'
 import img from '../../images/allimg/banner4.jpg'
 import ServiceSidebar from '../ServiceSinglePage/sidebar';
 import { Link } from 'react-router-dom';
@@ -35,14 +36,19 @@ const Pop = () => {
                                     <p>Sturdy and lightweight POP gripframes designed for seamless ceiling and partition installations. Made from high-quality galvanized steel, ensuring durability and rust resistance. Engineered for easy handling and quick assembly, providing strong support for POP and gypsum boards. Ideal for residential, commercial, and industrial spaces.</p>
                                    
                                     <div className="row mt-4">
-                                        <div className="col-md-6 col-sm-6 col-12">
+                                        <div className="col-md-4 col-sm-6 col-12">
                                             <div className="wpo-p-details-img">
                                                 <img src={simg1} alt="eimg" />
                                             </div>
                                         </div>
-                                        <div className="col-md-6 col-sm-6 col-12">
+                                        <div className="col-md-4 col-sm-6 col-12">
                                             <div className="wpo-p-details-img">
                                                 <img src={simg2} alt="eimg" />
+                                            </div>
+                                        </div>
+                                        <div className="col-md-4 col-sm-6 col-12">
+                                            <div className="wpo-p-details-img">
+                                                <img src={simg3} alt="eimg" />
                                             </div>
                                         </div>
                                     </div>
