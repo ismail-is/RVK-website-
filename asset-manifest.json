@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RVK-website-/static/css/main.ea842770.css",
-    "main.js": "/RVK-website-/static/js/main.1e0e8376.js",
+    "main.js": "/RVK-website-/static/js/main.73e9efb1.js",
     "static/js/787.823c83fe.chunk.js": "/RVK-website-/static/js/787.823c83fe.chunk.js",
     "static/media/contactbanner.png": "/RVK-website-/static/media/contactbanner.87577e9585ec41e3dd86.png",
     "static/media/aboutbanner.png": "/RVK-website-/static/media/aboutbanner.8671f86a784d87af9530.png",
@@ -47,6 +47,7 @@
     "static/media/logo.svg": "/RVK-website-/static/media/logo.7c99cb74d101ac7b107abe7339e357b6.svg",
     "static/media/2.webp": "/RVK-website-/static/media/2.7acf23e4455f41335071.webp",
     "static/media/flaticon.eot?": "/RVK-website-/static/media/flaticon.a28692c835684bdcf6cb.eot",
+    "static/media/7.png": "/RVK-website-/static/media/7.8a4d595993ab34dd174d.png",
     "static/media/flaticon.ttf?": "/RVK-website-/static/media/flaticon.0ff2676ffb98efd26675.ttf",
     "static/media/about1.jpg": "/RVK-website-/static/media/about1.07c5790e29bd08c520c3.jpg",
     "static/media/slide-2.jpg": "/RVK-website-/static/media/slide-2.975fc165ca6941923ae3.jpg",
@@ -73,11 +74,11 @@
     "static/media/sappot-shape.svg": "/RVK-website-/static/media/sappot-shape.de16c868c146a966fb9805f6739fe822.svg",
     "static/media/title-shape.svg": "/RVK-website-/static/media/title-shape.bfe66cc5a470d4747b0c0d08df351335.svg",
     "main.ea842770.css.map": "/RVK-website-/static/css/main.ea842770.css.map",
-    "main.1e0e8376.js.map": "/RVK-website-/static/js/main.1e0e8376.js.map",
+    "main.73e9efb1.js.map": "/RVK-website-/static/js/main.73e9efb1.js.map",
     "787.823c83fe.chunk.js.map": "/RVK-website-/static/js/787.823c83fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea842770.css",
-    "static/js/main.1e0e8376.js"
+    "static/js/main.73e9efb1.js"
   ]
 }
