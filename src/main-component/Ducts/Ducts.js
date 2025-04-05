@@ -13,6 +13,7 @@ import simg1 from '../../images/allimg/Ducts/1.jpg'
 import simg2 from '../../images/allimg/Ducts/2.jpg'
 import simg3 from '../../images/allimg/mainservice/1.jpg'
 import simg4 from '../../images/allimg/Ducts/img3.png'
+import simg5 from '../../images/new/5.png'
 import Img1 from '../../images/allimg/service/1.jpg'
 import ServiceSidebar from '../ServiceSinglePage/sidebar';
 import { Link } from 'react-router-dom';
@@ -47,14 +48,19 @@ const Ducts = () => {
                                                 <img src={simg2} alt="eimg" />
                                             </div>
                                         </div>
-                                        <div className="col-md-6 col-sm-6 col-12">
+                                        <div className="col-md-4 col-sm-6 col-12">
                                             <div className="wpo-p-details-img">
                                                 <img src={simg3} alt="eimg" />
                                             </div>
                                         </div>
-                                        <div className="col-md-6 col-sm-6 col-12">
+                                        <div className="col-md-4 col-sm-6 col-12">
                                             <div className="wpo-p-details-img">
                                                 <img src={simg4} alt="eimg" />
+                                            </div>
+                                        </div>
+                                        <div className="col-md-4 col-sm-6 col-12">
+                                            <div className="wpo-p-details-img">
+                                                <img src={simg5} alt="eimg" />
                                             </div>
                                         </div>
                                     </div>

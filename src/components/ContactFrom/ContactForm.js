@@ -88,7 +88,7 @@ const ContactForm = () => {
                             name="Produts">
                             <option>Products </option>
                             <option>HVAC DUCTS</option>
-                            <option>ELEMENTZ AC STAND</option>
+                            <option>ELEMENTZ WALL MOUNT BRACKET</option>
                             <option>CABLE TRAY</option>
                             <option>POP GRIPFRAMES</option>
                             <option>HYBRID POWDER COATING</option>

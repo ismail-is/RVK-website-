@@ -33,7 +33,7 @@ const Services = [
       Id: '02',
       sImg: simg2,
       sSImg: sSimg2,
-      title: 'ELEMENTZ AC STAND',
+      title: 'ELEMENTZ WALL MOUNT BRACKET',
       slug: 'Elementz',
       description: 'The industry standard text and since took to make.',
    },

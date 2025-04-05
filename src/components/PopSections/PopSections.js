@@ -71,8 +71,8 @@ const PopSections = () => {
         },
         {
             id: '2',
-            title: 'ELEMENTZ AC STAND',
-            subtitle: 'ELEMENTZ AC STAND',
+            title: 'ELEMENTZ WALL MOUNT BRACKET',
+            subtitle: 'ELEMENTZ WALL MOUNT BRACKET',
             slug: 'Elementz',
             pimg1: pimg2,
            

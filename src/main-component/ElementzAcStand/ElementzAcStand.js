@@ -11,6 +11,7 @@ import Logo from '../../images/allimg/logo/RVKlogo.png'
 import Cta from '../../components/Cta/Cta';
 import simg1 from '../../images/allimg/mainbanners/ac/3.jpg'
 import simg2 from '../../images/allimg/mainbanners/ac/2.jpg'
+import simg3 from '../../images/new/1.png'
 import simg from '../../images/allimg/mainbanners/acbanner.jpg'
 import ServiceSidebar from '../ServiceSinglePage/sidebar';
 import { Link } from 'react-router-dom';
@@ -20,7 +21,7 @@ const ElementzAcStand = () => {
     return (
         <Fragment>
             <Navbar hclass={'wpo-header-style-3'} Logo={Logo} />
-            <PageTitle pageTitle={'ELEMENTZ AC STAND '}  />
+            <PageTitle pageTitle={'ELEMENTZ WALL MOUNT BRACKET '}  />
             <div className="wpo-service-single-area section-padding">
                 <div className="container">
                     <div className="row">
@@ -33,17 +34,22 @@ const ElementzAcStand = () => {
                                     {/* <div className="wpo-service-single-title">
                                         <h3>Civil Engineering</h3>
                                     </div> */}
-                                    <p>ELEMENTZ AC Stand by RVK Steel & Alloys is a high-quality, durable, and rust-resistant stand designed to provide maximum support and stability for air conditioning units. Made from premium-grade galvanized steel, it ensures long-lasting performance even in harsh weather conditions. With a robust design and precision engineering, ELEMENTZ AC Stand guarantees vibration-free operation, easy installation, and enhanced durability. </p>
+                                    <p>ELEMENTZ WALL MOUNT BRACKET by RVK Steel & Alloys is a high-quality, durable, and rust-resistant stand designed to provide maximum support and stability for air conditioning units. Made from premium-grade galvanized steel, it ensures long-lasting performance even in harsh weather conditions. With a robust design and precision engineering, ELEMENTZ AC Stand guarantees vibration-free operation, easy installation, and enhanced durability. </p>
                                    <p>As the only manufacturer of ELEMENTZ AC Stand in Mangalore, we take pride in delivering a reliable and sturdy solution for both residential and commercial AC installations.</p>
                                     <div className="row mt-4">
-                                        <div className="col-md-6 col-sm-6 col-12">
+                                        <div className="col-md-4 col-sm-6 col-12">
                                             <div className="wpo-p-details-img">
                                                 <img src={simg1} alt="eimg" />
                                             </div>
                                         </div>
-                                        <div className="col-md-6 col-sm-6 col-12">
+                                        <div className="col-md-4 col-sm-6 col-12">
                                             <div className="wpo-p-details-img">
                                                 <img src={simg2} alt="eimg" />
+                                            </div>
+                                        </div>
+                                        <div className="col-md-4 col-sm-6 col-12">
+                                            <div className="wpo-p-details-img">
+                                                <img src={simg3} alt="eimg" />
                                             </div>
                                         </div>
                                     </div>
