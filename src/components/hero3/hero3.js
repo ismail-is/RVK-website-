@@ -17,7 +17,7 @@ const Hero3 = () => {
                             <div className="col-xl-6 col-lg-6 col-md-6 col-12">
                                 <div className="wpo-static-hero-inner">
                                     <div className="slide-title">
-                                        <h2>RVK STEELS & ALLOYS </h2>
+                                        <h2>RVK STEEL & ALLOYS</h2>
                                         <h4 style={{color:'white'}}> Engineered for Performance, Built to Last</h4>
                                     </div>
                                     <div className="clearfix"></div>
