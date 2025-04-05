@@ -11,6 +11,8 @@ import Logo from '../../images/allimg/logo/RVKlogo.png'
 import Cta from '../../components/Cta/Cta';
 import simg1 from '../../images/allimg/Ducts/CABLE1.jpg'
 import simg2 from '../../images/allimg/Ducts/CABLE2.jpg'
+import simg3 from '../../images/new/2.png'
+import simg4 from  '../../images/new/3.png'
 import Img1 from '../../images/allimg/mainbanners/pop/pop3.jpg'
 import ServiceSidebar from '../ServiceSinglePage/sidebar';
 import { Link } from 'react-router-dom';
@@ -44,6 +46,16 @@ const CableTray = () => {
                                         <div className="col-md-6 col-sm-6 col-12">
                                             <div className="wpo-p-details-img">
                                                 <img src={simg2} alt="eimg" />
+                                            </div>
+                                        </div>
+                                        <div className="col-md-6 col-sm-6 col-12">
+                                            <div className="wpo-p-details-img">
+                                                <img src={simg3} alt="eimg" />
+                                            </div>
+                                        </div>
+                                        <div className="col-md-6 col-sm-6 col-12">
+                                            <div className="wpo-p-details-img">
+                                                <img src={simg4} alt="eimg" />
                                             </div>
                                         </div>
                                     </div>
